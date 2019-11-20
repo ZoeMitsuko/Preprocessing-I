@@ -113,13 +113,17 @@ html, body {
 	width: 100%;
 }
 
+.contact {
+	background: rgb(151, 151, 151); 
+	font-size: 20px;
+}
 table {
   font-family: "Roboto", helvetica, arial, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   width: 100%;
-  height: 5em;;
+  padding: @padding;
 }
 th {
 	text-align: left;
@@ -129,8 +133,8 @@ td {
 }
 
 .example-mixin {
-	.td();
-	.th();
+	.history-table();
+	.contact();
   }
 
 
@@ -138,3 +142,4 @@ td {
 
 @maincolor: lightgrey;
 @padding: 2em;
+@padding2: 1em;
