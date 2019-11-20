@@ -202,3 +202,22 @@ td {
   background: #979797;
   font-size: 20px;
 }
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+.intro {
+  display: center;
+}
+.navbar {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  font-weight: 400;
+  width: 100%;
+  border-bottom: 1px solid #888;
+}
